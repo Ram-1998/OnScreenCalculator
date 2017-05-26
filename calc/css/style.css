@@ -1,0 +1,83 @@
+* {
+	margin-bottom: 10px;
+	padding: 0;
+	box-sizing: border-box;
+	font: bold 14px Arial, sans-serif;
+}
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+#calculator {
+	height:50vw;
+	padding: 20px 20px 15px;
+	background: #3597cb;
+	background: linear-gradient(#3597cb,#012f47);
+	border-radius: 3px;
+	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.screen{
+	height:8vw;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	box-shadow: inset 0px 6px rgba(0, 0, 0, 0.2);
+	font-size: 17px;
+	line-height: 60px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+	}
+
+
+.clear {
+	float: left;
+	height:40px;
+	border-radius:5px;
+	padding:2px;
+	margin-top:4px;
+}
+
+
+.keys{
+	float: left;
+	height:7vw;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.8)
+	color: #212f3c;
+	text-align: center;
+	transition: all 0.2s ease;
+	padding:3px;
+	margin:1vw;
+}
+.sym ,.clear{
+	float:left;
+	background: #FFF0F5;
+	height:7vw;
+	border-radius:5px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.8);
+	margin:1vw;
+}
+.plus {
+	height:16vw;
+}
+.eqal {
+	background: #f1ff92;
+	height: 7vw;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.8);
+	color: black;
+	border-radius:5px;
+	margin:1vw;
+
+}
+
+.clear {
+	background: #b20738;
+	color: white;
+}

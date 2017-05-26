@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Calculator">
+  <meta name="keywords" content="Calculator">
+  <meta name="author" content="Shree Ram Bansal">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Facebook Open Graph meta -->
+  <meta property="og:title" content="Calculator">
+  <meta property="og:description" content="Calculator">
+  <meta name="theme-color" content="#000">
+
+  <title>On Screen Calculator</title>
+
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="shortcut icon" href="./favicon.png" type="image/png"/>
+
+</head>
+</head>
+
+<body>
+  <div id="calculator" class="col-md-12">
+    <form name="case">
+
+      <input class="screen col-md-12" id="display" name="display" value="">
+      <div class="key-box col-md-12">
+
+        <div class="col-md-7">
+          <input type="button" class="keys col-md-3" value="1" data-key="97" onclick="run1()">
+          <input type="button" class="keys col-md-3" value="2" data-key="98" onclick="run2()">
+          <input type="button" class="keys col-md-3" value="3" data-key="99" onclick="run3()">
+          <input type="button" class="keys col-md-3" value="4" data-key="100" onclick="run4()">
+          <input type="button" class="keys col-md-3" value="5" data-key="101"onclick="run5()">
+          <input type="button" class="keys col-md-3" value="6" data-key="102"onclick="run6()">
+          <input type="button" class="keys col-md-3" value="7" data-key="103"onclick="run7()">
+          <input type="button" class="keys col-md-3" value="8" data-key="104"onclick="run8()">
+          <input type="button" class="keys col-md-3" value="9" data-key="105"onclick="run9()">
+          <input type="button" class="keys col-md-3" value="0" data-key="96"onclick="run0()">
+          <input type="button" class="keys col-md-3" value="00" data-key="45"onclick="run00()">
+          <input type="button" class="keys col-md-3" value="." data-key="110"onclick="runDeci()">
+        </div>
+        <div class="col-md-5">
+          <div class="col-md-4">
+            <input type="button" id="minus" 	class="sym col-md-12" 	data-key="109"value="-" onclick="runMinus()" >
+            <input type="button" id="plus"  class="sym col-md-12 plus" value="+" data-key="107" onclick="runPlus()">
+          </div>
+          <div class="col-md-4">
+            <input type="button" class="clear col-md-12" value="C" data-key="27" onclick="runC()">
+            <input type="button" id="divide" 	class="sym col-md-12" 	value="/" data-key="111"onclick="runDivide()" >
+            <input type="button" id="multiply" 	class="sym col-md-12" 	data-key="106" value="*" onclick="runMultiply()">
+          </div>
+          <input type="button" id="equal" 	class="eqal col-md-8"	value="=" data-key="13" onclick="runEquals()">
+
+        </div>
+      </div>
+    </form>
+  </div> <!--  END opercase -->
+  <script src="js/main.js"></script>
+</body>
